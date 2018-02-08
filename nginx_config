@@ -1,0 +1,18 @@
+server
+{
+    listen 80;
+    #server_name shop.com shop.lvfk.com;
+    server_name shop.com;
+    index index.php;
+    root /var/www/yii2-shop/web/;
+     location ~ .*\.(gif|jpg|jpeg|png|js|css|ico|PNG|woff|ttf)$ {
+            expires 30d;
+     }
+    location / {
+          try_files $uri $uri/ /index.php?$args;
+          fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+            fastcgi_index index.php;
+          fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+          include fastcgi_params;
+    }
+}

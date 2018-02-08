@@ -1,0 +1,27 @@
+{
+  "name": "lvfk/mailerqueue",
+  "type": "yii2-extension",
+  "description": " async mailer by swiftmailer and redis base on yii2",
+  "keywords": ["yii2","redis","async","mailer"],
+  "license": "MIT",
+  "support": {
+    "issues":"https://github.com/Justshunjian/yii2_mailerqueue/issues",
+    "forum":"",
+    "source":"https://github.com/Justshunjian/yii2_mailerqueue"
+  },
+  "authors":[
+    {
+      "name":"lvfk",
+      "email":"641753081@qq.com"
+    }
+  ],
+  "require":{
+    "yiisoft/yii2":"*",
+    "yiisoft/yii2-redis":"~2.0.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "lvfk\\mailerqueue\\":"src/"
+    }
+  }
+}

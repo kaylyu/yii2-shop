@@ -1,0 +1,37 @@
+[2018-02-02 14:46:38,336][INFO ][node                     ] [master-1] version[2.4.1], pid[6194], build[c67dc32/2016-09-27T18:57:55Z]
+[2018-02-02 14:46:38,337][INFO ][node                     ] [master-1] initializing ...
+[2018-02-02 14:46:39,074][INFO ][plugins                  ] [master-1] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-02-02 14:46:39,139][INFO ][env                      ] [master-1] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [2.8gb], net total_space [18.5gb], spins? [possibly], types [ext4]
+[2018-02-02 14:46:39,140][INFO ][env                      ] [master-1] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2018-02-02 14:46:41,737][INFO ][node                     ] [master-1] initialized
+[2018-02-02 14:46:41,739][INFO ][node                     ] [master-1] starting ...
+[2018-02-02 14:46:41,891][INFO ][transport                ] [master-1] publish_address {10.168.1.216:9300}, bound_addresses {10.168.1.216:9300}
+[2018-02-02 14:46:41,903][INFO ][discovery                ] [master-1] yii2-shop-search/i1y2b3AxRyS1PH-p0Uv53A
+[2018-02-02 14:46:44,991][INFO ][cluster.service          ] [master-1] new_master {master-1}{i1y2b3AxRyS1PH-p0Uv53A}{10.168.1.216}{10.168.1.216:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-02-02 14:46:45,068][INFO ][http                     ] [master-1] publish_address {10.168.1.216:9200}, bound_addresses {10.168.1.216:9200}
+[2018-02-02 14:46:45,068][INFO ][node                     ] [master-1] started
+[2018-02-02 14:46:45,091][INFO ][gateway                  ] [master-1] recovered [0] indices into cluster_state
+[2018-02-02 14:56:50,038][INFO ][node                     ] [master-1] stopping ...
+[2018-02-02 14:56:50,067][INFO ][node                     ] [master-1] stopped
+[2018-02-02 14:56:50,068][INFO ][node                     ] [master-1] closing ...
+[2018-02-02 14:56:50,077][INFO ][node                     ] [master-1] closed
+[2018-02-02 14:56:52,227][INFO ][node                     ] [master-1] version[2.4.1], pid[6341], build[c67dc32/2016-09-27T18:57:55Z]
+[2018-02-02 14:56:52,228][INFO ][node                     ] [master-1] initializing ...
+[2018-02-02 14:56:52,878][INFO ][plugins                  ] [master-1] modules [reindex, lang-expression, lang-groovy], plugins [analysis-ik], sites []
+[2018-02-02 14:56:52,909][INFO ][env                      ] [master-1] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [2.8gb], net total_space [18.5gb], spins? [possibly], types [ext4]
+[2018-02-02 14:56:52,910][INFO ][env                      ] [master-1] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2018-02-02 14:56:54,581][INFO ][ik-analyzer              ] try load config from /home/lvfk/elasticsearch-2.4.1/config/analysis-ik/IKAnalyzer.cfg.xml
+[2018-02-02 14:56:54,583][INFO ][ik-analyzer              ] try load config from /home/lvfk/elasticsearch-2.4.1/plugins/elasticsearch-analysis-ik/config/IKAnalyzer.cfg.xml
+[2018-02-02 14:56:55,102][INFO ][ik-analyzer              ] [Dict Loading] custom/mydict.dic
+[2018-02-02 14:56:55,105][INFO ][ik-analyzer              ] [Dict Loading] custom/single_word_low_freq.dic
+[2018-02-02 14:56:55,114][INFO ][ik-analyzer              ] [Dict Loading] custom/ext_stopword.dic
+[2018-02-02 14:56:55,733][INFO ][node                     ] [master-1] initialized
+[2018-02-02 14:56:55,733][INFO ][node                     ] [master-1] starting ...
+[2018-02-02 14:56:55,821][INFO ][transport                ] [master-1] publish_address {10.168.1.216:9300}, bound_addresses {10.168.1.216:9300}
+[2018-02-02 14:56:55,831][INFO ][discovery                ] [master-1] yii2-shop-search/FWqmDKLBRhmPHgX3WdAcFQ
+[2018-02-02 14:56:58,890][INFO ][cluster.service          ] [master-1] new_master {master-1}{FWqmDKLBRhmPHgX3WdAcFQ}{10.168.1.216}{10.168.1.216:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-02-02 14:56:58,924][INFO ][http                     ] [master-1] publish_address {10.168.1.216:9200}, bound_addresses {10.168.1.216:9200}
+[2018-02-02 14:56:58,925][INFO ][node                     ] [master-1] started
+[2018-02-02 14:56:58,995][INFO ][gateway                  ] [master-1] recovered [0] indices into cluster_state
+[2018-02-02 15:25:12,327][INFO ][cluster.metadata         ] [master-1] [yii2_shop] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_, products]
+[2018-02-02 15:25:12,882][INFO ][cluster.routing.allocation] [master-1] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[yii2_shop][3], [yii2_shop][2], [yii2_shop][0], [yii2_shop][4], [yii2_shop][3], [yii2_shop][2], [yii2_shop][0]] ...]).

@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"101433036","appkey":"31dfc376463f5f9d9ea3bf7079e539cb","callback":"http://shop.iloveismarthome.com/?r=member/qqcallback","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}
